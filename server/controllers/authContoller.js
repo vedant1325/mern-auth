@@ -2,7 +2,7 @@ import bcrypt from "bcryptjs"
 import jwt from 'jsonwebtoken';
 
 import userModel from "../Models/userModel.js";
-import transporter from "../config/nodeMAiler.js";
+import transporter from "../config/nodeMailer.js";
 import { EMAIL_VERIFY_TEMPLATE, PASSWORD_RESET_TEMPLATE } from "../config/emailTemplates.js";
 
 export const register = async (req, res) => {
