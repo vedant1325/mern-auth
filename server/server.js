@@ -16,7 +16,7 @@ import userRouter from "./Routes/userRoutes.js";
  const port=process.env.PORT || 4000;
  connectDB();
 
- const allowedOrigins=['https://mern-auth-client-6mfo.onrender.com','http://localhost:5173']
+ const allowedOrigins=['https://mern-auth-client-6mfo.onrender.com']
 
  app.use(express.json());
  app.use(cookieParser());
